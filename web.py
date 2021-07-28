@@ -24,7 +24,9 @@ url_utkarsh = 'https://github.com/09Utkarsh09/Sudoku-Solver'
 if st.sidebar.button("Utkarsh's Github Link"):
     webbrowser.open_new_tab(url_utkarsh)
 
-st.sidebar.button("Blog Link")
+url_blog = 'https://image-sudoku-solver.blogspot.com/p/image-sudoku-solver.html'
+if st.sidebar.button("Blog Link"):
+    webbrowser.open_new_tab(url_blog)
 
 st.markdown("<h1 style='text-align: center; color: Black;'>Sudoku Solver</h1>", unsafe_allow_html=True)
 st.text("")
